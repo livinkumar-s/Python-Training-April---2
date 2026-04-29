@@ -1,0 +1,48 @@
+Python:
+--------
+>> It is a high-level, interpretted, OOP programming language.
+
+Machine code ---> actual instructions that CPU can understand
+
+Human Code (print())
+|
+|(Compilation)
+|
+Binary Code (Common)
+|
+|(interpretation)
+|
+Machine code
+
+ 
+Extension ---> .py 
+
+Terminal---> CLI
+Command --> python filename.py
+
+Print 
+----------
+>> To print a data at the output.
+Ex: print(data)
+
+Syntax 
+--------
+>> Indentation Matters.(white space that defines Block of code)
+>> Case sensitive. (a is not A)
+
+Comments
+------------
+Comments are ignored by python.
+
+# --> single mine comment
+''' ''' --> multiple line comment
+
+defining code.
+disable small code snippets
+
+Datatypes
+----------
+Integer --> Whole Numbers. 1,2,3,0,-1,-5
+Float --> Decimal. 5.0, -3.33...
+String --> Sequence of char. "",''. 'Priya'
+Boolean --> True, False
