@@ -25,6 +25,12 @@ Print
 >> To print a data at the output.
 Ex: print(data)
 
+Input 
+-----
+>> To prompt value from user.
+>> it will always return a string.
+Ex: input()
+
 Syntax 
 --------
 >> Indentation Matters.(white space that defines Block of code)
@@ -40,9 +46,37 @@ Comments are ignored by python.
 defining code.
 disable small code snippets
 
+Variable 
+----------
+>> It is a named memory.
+like a container that can store a data in it.
+
+varName=val
+
+Naming rules 
+------------
+>> var name can have letters, numbers, _  
+>> cannot start with numeric
+>> no reserved keywords.
+
 Datatypes
 ----------
 Integer --> Whole Numbers. 1,2,3,0,-1,-5
 Float --> Decimal. 5.0, -3.33...
+
 String --> Sequence of char. "",''. 'Priya'
+"I'm leo"
+'I just said "roger"'
+
+Concatination ---> str1 + str2 + str3
+
 Boolean --> True, False
+
+Type Casting
+-------------
+changing datatype of a value.
+
+int(val) --> convert into int.
+str()
+bool()
+float()
