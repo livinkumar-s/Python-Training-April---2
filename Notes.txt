@@ -80,3 +80,20 @@ int(val) --> convert into int.
 str()
 bool()
 float()
+
+Operator
+---------
+>> Symbol or keyword that performs operation on operands(value)
+
+2 + 2 = 4 //addition
+
+Arithmetic 
+-----------
++ --> Addition (str)
+- --> Subtraction
+* --> Multiplication
+/ --> Division
+// --> Floor Division
+% --> Modulus (Reminder)
+** --> Exponentiation
+
