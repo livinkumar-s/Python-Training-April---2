@@ -97,3 +97,45 @@ Arithmetic
 % --> Modulus (Reminder)
 ** --> Exponentiation
 
+BODMAS
+
+Comparison Operator (Boolean)
+--------------------
+== equal
+!= not equal
+< lesser than
+> greater than
+<= less or equal
+>= great or equal
+
+Logical operator (Boolean)
+-----------------
+and ---> Both are True --> True. Otherwise --> False
+or ---> Both are False --> False. Otherwise True
+not ---> Revert a Boolean --> True --> False
+
+Assignment Operators
+----------------------
+= assign 
++= add and assign 
+-= sub and assign 
+*= multiply and assign
+/= divide and assign
+//= floor divide and assign
+%= modulus and assign
+**= exponent and assign
+
+Bitwise 
+----------
+& --> and operator --> it performs and operation between bits.
+| --> it performs or operation between bits.
+>> --> Right shift. val>>pos.
+~ --> inverts bits. ~n = - (n+1)
+^ --> x-or 
+<< --> Left shift. val<<pos 
+
+Identity Operator 
+------------------
+
+Mambership operator 
+---------------------
