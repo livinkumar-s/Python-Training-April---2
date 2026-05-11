@@ -139,3 +139,53 @@ Identity Operator
 
 Mambership operator 
 ---------------------
+
+
+Control Flow 
+----------------
+>> Control flow decides which block of code should run based on a condition.
+
+Conditional Clauses
+----------------------
+>> It executes block of code based on a condition
+
+if block
+---------
+syntax :
+-----------
+if condition:
+    block of code 
+
+True --> block of code will get executed
+False --> block of code will not get executed
+
+elif block 
+-----------
+used to check more than 1 condition.
+Syntax:
+---------
+elif condition:
+    block of code
+
+True --> block of code will get executed
+False --> block of code will not get executed
+
+else block 
+-----------
+syntax:
+--------
+else:
+    block of code
+ 
+True --> block of code will not get executed
+False --> block of code will get executed
+
+Nested If
+-------------
+>> If block inside anothe
+if cond1:
+    if cond2:
+        block of code
+
+Loops 
+---------
