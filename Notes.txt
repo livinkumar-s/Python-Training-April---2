@@ -141,6 +141,23 @@ Mambership operator
 ---------------------
 
 
+Sequence (Iterable Object)
+---------
+len --> finds out length of a seq
+>> Ordered collection of data.
+Ex: String, List, Tuple, Set, Dict....
+
+Indexing
+----------
+index number starts with 0.
+a="Queen" --> varName[ind] --> a[5] --> e
+Negative Indexing ---> -1 --> last element, -2,-3
+
+
+Slicing 
+--------
+
+
 Control Flow 
 ----------------
 >> Control flow decides which block of code should run based on a condition.
@@ -189,3 +206,40 @@ if cond1:
 
 Loops 
 ---------
+
+>> A loop is used to execute a block of code for multiple times.
+
+While ---> Condition Based Loop 
+For ---> Sequence Based Loop
+
+While (no of iteration is not known)
+-----
+syntax:
+--------
+while condition:
+    block of code
+
+>> It will keep executing the code unless the condition becomes False.
+
+For loop (no of iteration is known)
+-----------
+>> iterating over a sequence.
+syntax
+-------
+for varName in Sequence:
+    block of code
+
+Range --> in built method to create temporary sequence.
+------
+range(40) --> [0,1,2,3...39]
+range(start, end) ---> range(3,10) --> [3,4,5...9]
+range(start, end, step) --> range(2,20,2) --> [2,4,6,8,10,12,14,16,18]
+
+Control Statements 
+--------------------
+break --> stops the loops
+continue --> skips the current iteration.
+
+Nested Loop
+------------
+loop inside another loop.
