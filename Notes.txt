@@ -139,6 +139,9 @@ Identity Operator
 
 Mambership operator 
 ---------------------
+in, not in 
+
+ele in sequence 
 
 
 Sequence (Iterable Object)
@@ -156,6 +159,13 @@ Negative Indexing ---> -1 --> last element, -2,-3
 
 Slicing 
 --------
+> Extracting part of a sequence.
+a="Hello world"
+
+varName[start:] --> a[2:]
+[:end] 
+[start:end]
+[::-1]
 
 
 Control Flow 
@@ -243,3 +253,33 @@ continue --> skips the current iteration.
 Nested Loop
 ------------
 loop inside another loop.
+
+Datastructures 
+---------------
+>> Used to multiple values in a single variable.
+
+List 
+-----
+Ordered 
+Mutable
+Duplicates are allowed
+>> [val1,val2...]
+
+In built methods of list 
+--------------------------
+.append(ele)
+.insert(pos, ele)
+.extend(seq)
+
+.remove(ele) --> 1st occur
+.pop(ind)
+.pop() --> last element.
+
+.index(ele)
+.count(ele)
+
+.reverse()
+.sort()
+
+Tuple 
+------
