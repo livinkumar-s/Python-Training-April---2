@@ -283,3 +283,46 @@ In built methods of list
 
 Tuple 
 ------
+>> (val1, val2....)
+ordered.
+Duplicates are allowed 
+Immutable.
+
+inbuilt methods 
+----------------
+.index(ele)
+.count(ele)
+
+Packing and unpacking
+------------------------
+person1=("ken",45,"FED")
+name,age,job=person1
+
+Set 
+------
+>> {val1, val2....}
+unordered 
+no duplicates 
+>> Mutable
+
+In built methods 
+------------------
+.add(ele)
+.remove(ele)
+.union(set)
+.intersection(set)
+.difference(set)
+
+Dict 
+-----
+>> {key:value, key:value......}
+ordered
+mutable 
+keys should be unique 
+values can be duplicated
+
+inbuilt methods 
+---------------
+.key() --> return a seq of all keys
+.values()
+.items()
