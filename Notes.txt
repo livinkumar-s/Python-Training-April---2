@@ -80,6 +80,10 @@ int(val) --> convert into int.
 str()
 bool()
 float()
+list()
+dict()
+tuple()
+set()
 
 Operator
 ---------
@@ -134,8 +138,10 @@ Bitwise
 ^ --> x-or 
 << --> Left shift. val<<pos 
 
-Identity Operator 
+Identity Operator (check memory location)
 ------------------
+is --> True --> if both var refer to same object
+is not
 
 Mambership operator 
 ---------------------
@@ -326,3 +332,50 @@ inbuilt methods
 .key() --> return a seq of all keys
 .values()
 .items()
+
+Functions 
+------------
+>> Reusable block of code that performs a specific task.
+
+Inbuilt function ---> print, type, len, input...
+User defined functions --> def fn....
+
+def fnName():
+    block of code
+
+fnName() --> calling, invoking
+
+Parameters and Arguments 
+-------------------------
+P --> Variables inside function definition.
+A --> Values assigned for the parameters while invoking.
+
+Positional Arguments
+------------------------
+>> passed in order.
+
+Keyword arguments 
+-------------------
+>> passing values using parameters name.
+
+Default arguments
+-------------------
+>>Assign default value to a parameter
+
+Variable length Arguments *args (Tuple)
+
+**kargs Keyword arguments (Dict)
+
+Return Keyword 
+---------------
+Function can send values back to the caller using retuirn keyword.
+>> it stops the function execution.
+
+Scope 
+---------
+>> Where a variable can be accessed.
+
+Local Scope  ---> Created inside a function 
+Global Scope ---> Created outside of any function
+
+Recursion --> A function calling itself.

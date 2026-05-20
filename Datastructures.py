@@ -140,3 +140,9 @@ person1=[
 ]
 # print(len(person1))
 # print(person1[-1][-1][-1][-1])
+
+# t1=(1,2,3,4,5)
+# print(list(t1))
+
+list1=[432,54,34,4,45,234,243,3,243,243,243]
+print(list(set(list1)))
