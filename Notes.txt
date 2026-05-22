@@ -6,7 +6,7 @@ Machine code ---> actual instructions that CPU can understand
 
 Human Code (print())
 |
-|(Compilation)
+|(Compilation)(syntax errors)
 |
 Binary Code (Common)
 |
@@ -97,6 +97,12 @@ In built Methods
 .isdigit()
 .isalpha()
 .isalnum()
+
+Escape Characters 
+------------------
+Used for special Formatting
+\n --> new line
+\t --> tab
 
 Boolean --> True, False
 
@@ -407,3 +413,31 @@ Local Scope  ---> Created inside a function
 Global Scope ---> Created outside of any function
 
 Recursion --> A function calling itself.
+
+
+Error
+------
+>> An error is a problem that stops program from running correctly.
+
+Syntax Errors
+Runtime Errors 
+Logical Errors 
+
+Syntax Errors
+-------------
+>> Syntax --> grammer of writing code.
+Examples: SyntaxError, IndentationError
+
+Runtime errors (Exceptions)
+----------------
+>> Occurs while the program is running.
+Ex: TypeError, ValueError, ZeroDivisionError, NameError.
+
+Exception Handling
+---------------------
+try:
+    block of code 
+except errName:
+    handling block 
+finally:
+    block of code

@@ -7,7 +7,7 @@
 # print("his name is " + name + ". He is " + str(age) + " years old.")
 # print(f"his name is {name}. He is {age} years old.")
 
-str1="I would love to code"
+# str1="I would love to code"
 
 # print(str1.upper())
 # print(str1.lower())
@@ -35,3 +35,17 @@ str1="I would love to code"
 # print("123a".isdigit())
 # print(name.isalpha())
 
+# a= input()
+# if a==a[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+# a= 'I\'m\tleo.\nI said "Hello"'
+# a= '\\n line breaker'
+para='''Hello
+Hi
+Hello'''
+print(para)
+
+# \n line breaker
