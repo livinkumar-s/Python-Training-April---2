@@ -68,7 +68,35 @@ String --> Sequence of char. "",''. 'Priya'
 "I'm leo"
 'I just said "roger"'
 
+Operations:
 Concatination ---> str1 + str2 + str3
+Repetition ---> Str * num
+
+String Formatting  --> f"{var} {var}"
+
+In built Methods  
+-----------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip()
+.lstrip()
+.rstrip()
+
+.split(char)
+.join(seq)
+
+.find(subStr) -1 --> no occur
+.count()
+
+.startwith()
+.endswith()
+
+.isdigit()
+.isalpha()
+.isalnum()
 
 Boolean --> True, False
 
