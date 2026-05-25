@@ -441,3 +441,35 @@ except errName:
     handling block 
 finally:
     block of code
+
+File Handling
+---------------
+>> Creating, Reading and updating files using python.
+
+To Open a file --> open(addr, mode)
+file.close() --> clkose the file.
+
+.tell() --> curtrent cursor position.
+.seek(pos) --> moves cursor position
+
+Reading Methods 
+------------------
+.read()
+.readline()
+.readlines()
+
+Writing Methods 
+------------------
+.write(content)
+
+Modes 
+------
+r --> read 
+w --> write (over write)
+a --> append 
+x --> create 
+
+with Statements
+-------------------
+ with open() as f:
+    // fiole handling
