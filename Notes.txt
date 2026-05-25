@@ -473,3 +473,43 @@ with Statements
 -------------------
  with open() as f:
     // fiole handling
+
+OOP --> Object Oriented Programming 
+----------------------------------------
+>> It is a programming style based on Objects and classes.
+ 
+Bottle ---> height, color ---> open, close 
+Blueprint --> obj1, obj2..
+
+class --> obj1, obj2....
+
+class Classname:
+    //attributes 
+    //methods
+
+Constructor Function
+---------------------
+def __init__(self):
+    self.p1=val
+
+Encapsulation:
+---------------
+>> Binding data + methods together in a class.
+__ --> private data
+
+Inheritance
+------------
+one class acquires properties from another.
+
+Polymorphism 
+--------------
+>> Method Overriding 
+>> Method Overloading
+>> Duck typing 
+
+
+Abstraction 
+-------------
+Hides internal implementation details. shows only essential details.
+
+
