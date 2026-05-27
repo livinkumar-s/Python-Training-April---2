@@ -20,6 +20,11 @@ Extension ---> .py
 Terminal---> CLI
 Command --> python filename.py
 
+Package manager --> PIP 
+command to install a package --> pip install packagename;
+
+
+
 Print 
 ----------
 >> To print a data at the output.
